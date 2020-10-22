@@ -152,7 +152,7 @@ go test -v ./... -cover
 ```json
 {
   "status": "Bad Request",
-  "data": <error-massage>,
+  "data": <error-message>,
   "accessTime": "11-10-2020 16:58:09"
 }
 ```
@@ -162,7 +162,7 @@ go test -v ./... -cover
 ```json
 {
   "status": "Internal Server Error",
-  "data": <error-massage>,
+  "data": <error-message>,
   "accessTime": "11-10-2020 16:58:09"
 }
 ```
