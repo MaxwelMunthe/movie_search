@@ -1,0 +1,11 @@
+app:
+  name: "MicroService Test"
+  debug: true
+  port: "8080"
+  host: "localhost"
+  service: "http"
+  context:
+    timeout: 2
+omDbApi:
+    url: "http://www.omdbapi.com/"
+    key: "faf7e5bb"
